@@ -1,0 +1,18 @@
+## Facebook Asynchronous Python SDK
+
+This is the first Python Facebook SDK after Facebook decided to drop the Python port for their API.
+I have spent a lot of hours developing Facebook applications in PHP using Facebook's PHP SDK, but recently I decided to move to Python using the Tornado Web Server.
+
+What are the benefits?
+- Asynchronous Facebook API calls (which are not possible with Facebook's PHP SDK)
+- A lot faster background scripts utilizing Facebook API
+- Made to work perfectly with FriendFeed's web server - Tornado Web Server (http://www.tornadoweb.org/)
+
+* [Wiki](https://github.com/gameovergroup/Facebook-Asynchronous-Python-SDK/wiki)
+* [Issue Tracker](https://github.com/gameovergroup/Facebook-Asynchronous-Python-SDK/issues)
+
+## Required Packages
+* Python 2.6+
+* Tornado Web Server 2.0+ (if you want the Asynchronous feature)
+
+## INSTALL
